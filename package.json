@@ -1,0 +1,32 @@
+{
+  "name": "proyecto-ficheros-cli",
+  "version": "1.0.0",
+  "description": "Proyecto CLI para generar ficheros de manera facil",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dandres10/proyecto-ficheros-cli.git"
+  },
+  "keywords": [
+    "rb",
+    "js",
+    "ts",
+    "java"
+  ],
+  "author": "Marlon Leon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dandres10/proyecto-ficheros-cli/issues"
+  },
+  "homepage": "https://github.com/dandres10/proyecto-ficheros-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "figlet": "^1.5.2",
+    "inquirer": "^8.0.0",
+    "shelljs": "^0.8.5"
+  },
+  "bin": "./index.js"
+}
